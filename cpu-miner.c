@@ -823,7 +823,7 @@ static const char *getwork_req =
 	"{\"method\": \"getwork\", \"params\": [], \"id\":0}\r\n";
 
 #define GBT_CAPABILITIES "[\"coinbasetxn\", \"coinbasevalue\", \"longpoll\", \"workid\"]"
-#define GBT_RULES "[\"segwit\"]"
+#define GBT_RULES "[\"segwit\", \"signet\"]"
 
 static const char *gbt_req =
 	"{\"method\": \"getblocktemplate\", \"params\": [{\"capabilities\": "
